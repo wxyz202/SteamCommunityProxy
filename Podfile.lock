@@ -1,0 +1,23 @@
+PODS:
+  - CocoaAsyncSocket (7.4.3):
+    - CocoaAsyncSocket/All (= 7.4.3)
+  - CocoaAsyncSocket/All (7.4.3):
+    - CocoaAsyncSocket/GCD
+    - CocoaAsyncSocket/RunLoop
+  - CocoaAsyncSocket/GCD (7.4.3)
+  - CocoaAsyncSocket/RunLoop (7.4.3)
+  - GCDWebServer (3.3.3):
+    - GCDWebServer/Core (= 3.3.3)
+  - GCDWebServer/Core (3.3.3)
+
+DEPENDENCIES:
+  - CocoaAsyncSocket (= 7.4.3)
+  - GCDWebServer (= 3.3.3)
+
+SPEC CHECKSUMS:
+  CocoaAsyncSocket: a18c75dca4b08723628a0bacca6e94803d90be91
+  GCDWebServer: 1c39a1f0763e4eb492bee021e4270fce097d3555
+
+PODFILE CHECKSUM: bc9359e8a002cae68d6d83883373a262531041dd
+
+COCOAPODS: 1.0.1

@@ -1,0 +1,345 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1803AB461FFBD8D3005EA413 /* SteamCommunityProxyWebServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1803AB451FFBD8D3005EA413 /* SteamCommunityProxyWebServer.m */; };
+		1803AB491FFC8E10005EA413 /* SteamCommunityProxySocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 1803AB481FFC8E10005EA413 /* SteamCommunityProxySocket.m */; };
+		1853C7A11FFBD2CB00DD712D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1853C7A01FFBD2CB00DD712D /* main.m */; };
+		23FE2F496E852BAAF54C51AE /* libPods-SteamCommunityProxy.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AB86A932DD5D98829D0F2480 /* libPods-SteamCommunityProxy.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1853C79B1FFBD2CB00DD712D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1803AB441FFBD8D3005EA413 /* SteamCommunityProxyWebServer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SteamCommunityProxyWebServer.h; sourceTree = "<group>"; };
+		1803AB451FFBD8D3005EA413 /* SteamCommunityProxyWebServer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SteamCommunityProxyWebServer.m; sourceTree = "<group>"; };
+		1803AB471FFC8E10005EA413 /* SteamCommunityProxySocket.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SteamCommunityProxySocket.h; sourceTree = "<group>"; };
+		1803AB481FFC8E10005EA413 /* SteamCommunityProxySocket.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SteamCommunityProxySocket.m; sourceTree = "<group>"; };
+		1853C79D1FFBD2CB00DD712D /* SteamCommunityProxy */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SteamCommunityProxy; sourceTree = BUILT_PRODUCTS_DIR; };
+		1853C7A01FFBD2CB00DD712D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		19D210B37534123E6A466704 /* Pods-SteamCommunityProxy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SteamCommunityProxy.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SteamCommunityProxy/Pods-SteamCommunityProxy.debug.xcconfig"; sourceTree = "<group>"; };
+		AB86A932DD5D98829D0F2480 /* libPods-SteamCommunityProxy.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SteamCommunityProxy.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D56B294685D4F5333177AF8A /* Pods-SteamCommunityProxy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SteamCommunityProxy.release.xcconfig"; path = "Pods/Target Support Files/Pods-SteamCommunityProxy/Pods-SteamCommunityProxy.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1853C79A1FFBD2CB00DD712D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23FE2F496E852BAAF54C51AE /* libPods-SteamCommunityProxy.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1853C7941FFBD2CB00DD712D = {
+			isa = PBXGroup;
+			children = (
+				1853C79F1FFBD2CB00DD712D /* SteamCommunityProxy */,
+				1853C79E1FFBD2CB00DD712D /* Products */,
+				978811F87FC464204348DF3D /* Pods */,
+				7DBB1F912CF064F9540CB8EE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1853C79E1FFBD2CB00DD712D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1853C79D1FFBD2CB00DD712D /* SteamCommunityProxy */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1853C79F1FFBD2CB00DD712D /* SteamCommunityProxy */ = {
+			isa = PBXGroup;
+			children = (
+				1853C7A01FFBD2CB00DD712D /* main.m */,
+				1803AB471FFC8E10005EA413 /* SteamCommunityProxySocket.h */,
+				1803AB481FFC8E10005EA413 /* SteamCommunityProxySocket.m */,
+				1803AB441FFBD8D3005EA413 /* SteamCommunityProxyWebServer.h */,
+				1803AB451FFBD8D3005EA413 /* SteamCommunityProxyWebServer.m */,
+			);
+			path = SteamCommunityProxy;
+			sourceTree = "<group>";
+		};
+		7DBB1F912CF064F9540CB8EE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AB86A932DD5D98829D0F2480 /* libPods-SteamCommunityProxy.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		978811F87FC464204348DF3D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				19D210B37534123E6A466704 /* Pods-SteamCommunityProxy.debug.xcconfig */,
+				D56B294685D4F5333177AF8A /* Pods-SteamCommunityProxy.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1853C79C1FFBD2CB00DD712D /* SteamCommunityProxy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1853C7A41FFBD2CB00DD712D /* Build configuration list for PBXNativeTarget "SteamCommunityProxy" */;
+			buildPhases = (
+				BB91D5A1FB6FBBF100EB8B04 /* [CP] Check Pods Manifest.lock */,
+				1853C7991FFBD2CB00DD712D /* Sources */,
+				1853C79A1FFBD2CB00DD712D /* Frameworks */,
+				1853C79B1FFBD2CB00DD712D /* CopyFiles */,
+				C97D2679A9BA6417E05D1DB0 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SteamCommunityProxy;
+			productName = SteamCommunityProxy;
+			productReference = 1853C79D1FFBD2CB00DD712D /* SteamCommunityProxy */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1853C7951FFBD2CB00DD712D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = wxyz202;
+				TargetAttributes = {
+					1853C79C1FFBD2CB00DD712D = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 1853C7981FFBD2CB00DD712D /* Build configuration list for PBXProject "SteamCommunityProxy" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1853C7941FFBD2CB00DD712D;
+			productRefGroup = 1853C79E1FFBD2CB00DD712D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1853C79C1FFBD2CB00DD712D /* SteamCommunityProxy */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BB91D5A1FB6FBBF100EB8B04 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C97D2679A9BA6417E05D1DB0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SteamCommunityProxy/Pods-SteamCommunityProxy-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1853C7991FFBD2CB00DD712D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1853C7A11FFBD2CB00DD712D /* main.m in Sources */,
+				1803AB491FFC8E10005EA413 /* SteamCommunityProxySocket.m in Sources */,
+				1803AB461FFBD8D3005EA413 /* SteamCommunityProxyWebServer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1853C7A21FFBD2CB00DD712D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		1853C7A31FFBD2CB00DD712D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		1853C7A51FFBD2CB00DD712D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19D210B37534123E6A466704 /* Pods-SteamCommunityProxy.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1853C7A61FFBD2CB00DD712D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D56B294685D4F5333177AF8A /* Pods-SteamCommunityProxy.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1853C7981FFBD2CB00DD712D /* Build configuration list for PBXProject "SteamCommunityProxy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1853C7A21FFBD2CB00DD712D /* Debug */,
+				1853C7A31FFBD2CB00DD712D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1853C7A41FFBD2CB00DD712D /* Build configuration list for PBXNativeTarget "SteamCommunityProxy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1853C7A51FFBD2CB00DD712D /* Debug */,
+				1853C7A61FFBD2CB00DD712D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1853C7951FFBD2CB00DD712D /* Project object */;
+}
